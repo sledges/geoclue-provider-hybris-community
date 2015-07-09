@@ -18,6 +18,8 @@ BuildRequires: pkgconfig(android-headers)
 BuildRequires: pkgconfig(libhardware)
 BuildRequires: autoconf
 BuildRequires: libxslt
+Obsoletes: geoclue-provider-hybris <= 0.12.99.5
+Provides: geoclue-provider-hybris > 0.12.99.5
 
 %description
 %{summary}.
